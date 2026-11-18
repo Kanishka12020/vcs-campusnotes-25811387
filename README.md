@@ -1,1 +1,3 @@
 # Campus Notes
+How to Use Readme File:
+This is how we use it

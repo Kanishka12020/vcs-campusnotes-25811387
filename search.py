@@ -1,4 +1,4 @@
-def search_notes(notes, keyword):
+def find_notes(notes, keyword):
     """Find notes containing a keyword."""
     if keyword is None:
         return []
@@ -10,4 +10,4 @@ def search_notes(notes, keyword):
 
 if __name__ == "__main__":
     notes = ["Python Basics", "Git Commands", "Python Functions"]
-    print(search_notes(notes, "Python"))
+    print(find_notes(notes, "Python"))
